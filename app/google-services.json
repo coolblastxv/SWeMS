@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "113755646590",
+    "firebase_url": "https://swems-c1fa6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "swems-c1fa6",
+    "storage_bucket": "swems-c1fa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113755646590:android:24ee8c0297508ee33dc62f",
+        "android_client_info": {
+          "package_name": "com.project.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113755646590-0q640nh33ubcrhqigblh4ogr0tu4i3gf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.myapplication",
+            "certificate_hash": "02093bdbb44751632bb97e2ab4a1cb6d1f35bb83"
+          }
+        },
+        {
+          "client_id": "113755646590-6j62fffrip6isc4mrlmk4nkgaq1sl1sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx_33oUBU7V4w5JHiItOoCKUCTT-A7fJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113755646590-6j62fffrip6isc4mrlmk4nkgaq1sl1sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

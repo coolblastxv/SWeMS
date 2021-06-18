@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Drink_act"
+    android:layout_marginTop="15dp">
+
+    <ProgressBar
+        android:id="@+id/drinkBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="376dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/cal_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="9dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cal_view" />
+
+    <LinearLayout
+        android:id="@+id/cal_view"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/drinked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="of"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/drinkTarget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="drink"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="glass of water drinked"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/plusdrink"
+        android:layout_width="64dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="400dp"
+        android:background="@color/browser_actions_bg_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/minusdrink"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="400dp"
+        android:background="@color/browser_actions_bg_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="207dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cal_view"
+        app:layout_constraintVertical_bias="0.335"
+        app:srcCompat="@drawable/drink" />
+
+    <TextView
+        android:id="@+id/drinkcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.59" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
